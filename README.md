@@ -10,20 +10,40 @@ The following are needed
 
 Arduino uno / Mega 2560 Any compatible board should work following the interupt pin assigment :
 
+<table  border="1" align="center">
+    <tr>
+        <td width="50%" >
+            Board
+        </td>
+        <td width="50%">
+	Digital Pins Usable For Interrupts
+	</td>
+    </tr>
+</table>
 
-Board						Digital Pins Usable For Interrupts
 
-==================================		==================================
+Board...........................................Digital Pins Usable For Interrupts
+
+==================================..............==================================
 
 Uno, Nano, Mini, other 328-based		2, 3
+
 Mega, Mega2560, MegaADK				2, 3, 18, 19, 20, 21
+
 Micro, Leonardo, other 32u4-based		0, 1, 2, 3, 7
+
 Zero						all digital pins, except 4
+
 MKR1000 Rev.1					0, 1, 4, 5, 6, 7, 8, 9, A1, A2
+
 Due						all digital pins
+
 101						all digital pins 
+
 WeMos_D1, WeMos_D1 mini,NodeMCU			all digital pins
+
 ESP8266						all digital pins 
+
 
 
 Wiegand RFID Reader pin connection Example :
