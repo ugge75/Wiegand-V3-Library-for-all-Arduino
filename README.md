@@ -1,3 +1,4 @@
+# Wiegand-V3-Library-for-all-Arduino
 # Wiegand 26 and Wiegand 34 library for Arduino
 
 
@@ -25,7 +26,9 @@ ESP8266									all digital pins
 
 Wiegand RFID Reader.
 for ARDUINO UNO :
+
 		Reader 1 :
+		
 		DATA0 of Wiegand connects to Arduino PIN 2 
 		DATA1 of Wiegand connects to Arduino PIN 3
 
@@ -34,6 +37,7 @@ for ARDUINO UNO :
 		Reader 3 : NOT USED
 
 for ARDUINO MEGA2560 :
+
 		Reader 1 :
 
 		DATA0 of Wiegand connects to Arduino PIN 2 
@@ -53,10 +57,11 @@ Installation Follow the instruction for library installation in Arduino.cc web s
 
 
 
-REV 3.0 
+# REV 3.0 
+
 Adding compatibility to all the arduino board 
 
-REV 2.0 
+# REV 2.0 
 
 Bug fix on reader 3 
 
