@@ -11,20 +11,23 @@ The following are needed
 Arduino uno / Mega 2560 Any compatible board should work following the interupt pin assigment :
 
 
-Board									Digital Pins Usable For Interrupts
+Board						Digital Pins Usable For Interrupts
+
 ==================================		==================================
+
 Uno, Nano, Mini, other 328-based		2, 3
-Mega, Mega2560, MegaADK					2, 3, 18, 19, 20, 21
+Mega, Mega2560, MegaADK				2, 3, 18, 19, 20, 21
 Micro, Leonardo, other 32u4-based		0, 1, 2, 3, 7
-Zero									all digital pins, except 4
-MKR1000 Rev.1							0, 1, 4, 5, 6, 7, 8, 9, A1, A2
-Due										all digital pins
-101										all digital pins 
+Zero						all digital pins, except 4
+MKR1000 Rev.1					0, 1, 4, 5, 6, 7, 8, 9, A1, A2
+Due						all digital pins
+101						all digital pins 
 WeMos_D1, WeMos_D1 mini,NodeMCU			all digital pins
-ESP8266									all digital pins 
+ESP8266						all digital pins 
 
 
-Wiegand RFID Reader.
+Wiegand RFID Reader pin connection Example :
+
 for ARDUINO UNO :
 
 		Reader 1 :
@@ -57,13 +60,13 @@ Installation Follow the instruction for library installation in Arduino.cc web s
 
 
 
-# REV 3.0 
+## REV 3.0 
 
-Adding compatibility to all the arduino board 
+	Adding compatibility to all the arduino board 
 
-# REV 2.0 
+## REV 2.0 
 
-Bug fix on reader 3 
+	Bug fix on reader 3 
 
 Add the possibility to select which gate need to be active passing parameters to :  wg.begin(GateA, GateB , GateC);
 
