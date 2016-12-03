@@ -1,4 +1,3 @@
-# Wiegand-V3-Library-for-all-Arduino
 # Wiegand 26 and Wiegand 34 library for Arduino
 
 
@@ -8,13 +7,11 @@ The Wiegand interface is a de facto standard commonly used to connect a card rea
 
 The following are needed
 
-Arduino uno / Mega 2560 and any compatible board should work following the interupt pin assigment :
+Arduino uno / Mega 2560 Any compatible board should work following the interupt pin assigment :
 
 
-Board									                  Digital Pins Usable For Interrupts
-
-==================================		  ==================================
-
+Board									Digital Pins Usable For Interrupts
+==================================		==================================
 Uno, Nano, Mini, other 328-based		2, 3
 Mega, Mega2560, MegaADK					2, 3, 18, 19, 20, 21
 Micro, Leonardo, other 32u4-based		0, 1, 2, 3, 7
@@ -27,11 +24,8 @@ ESP8266									all digital pins
 
 
 Wiegand RFID Reader.
-
 for ARDUINO UNO :
-
 		Reader 1 :
-    
 		DATA0 of Wiegand connects to Arduino PIN 2 
 		DATA1 of Wiegand connects to Arduino PIN 3
 
@@ -40,7 +34,6 @@ for ARDUINO UNO :
 		Reader 3 : NOT USED
 
 for ARDUINO MEGA2560 :
-
 		Reader 1 :
 
 		DATA0 of Wiegand connects to Arduino PIN 2 
